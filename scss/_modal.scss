@@ -1,0 +1,27 @@
+$gb-primary:black;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modal{
+    height: 669px;
+    width: 990px; 
+
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 50px;
+
+    position: fixed;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
+
+    @include flexCenter ();
+
+   form{
+    display: flex;
+    flex-direction: column;
+   }
+}
