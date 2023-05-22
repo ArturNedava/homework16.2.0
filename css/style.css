@@ -183,3 +183,72 @@ body {
 .header .card div:nth-of-type(2) {
   width: 215px;
 }
+
+main {
+  background-color: #272727;
+}
+main .menu {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 64px;
+  line-height: 77px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .boss-card {
+  height: 536px;
+  width: 854px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .card-1 {
+  width: 328px;
+  height: 279px;
+}
+main .card-1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  color: #ffffff;
+}
+main .card-1 .oder {
+  height: 41px;
+  width: 160px;
+  background: #B47B48;
+  border-radius: 17px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .card-1 .oder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+main .card-1 .card {
+  border: 1px solid #FFFFFF;
+  width: 328px;
+  height: 229px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+}
+main .card-1 .card:nth-of-type(3) img {
+  position: absolute;
+  top: 41px;
+  width: 258px;
+  height: 257px;
+}
